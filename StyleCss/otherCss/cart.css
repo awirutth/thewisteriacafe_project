@@ -1,0 +1,60 @@
+.card {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-bottom: 10px !important;
+  }
+
+  .card-body {
+    flex: 1 !important;
+  }
+
+  .card-img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+.sumPrice{
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  width: 88% !important;
+  position: absolute;
+  bottom: 70px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+}
+.discount{
+  font-size:19px;
+  color: red;
+  position:absolute;
+  top:15px;
+}
+.TextRight button{
+  background-color: #857379;
+  border: 1px solid lightgray;
+}
+
+#discountText{
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .sumPriceText {
+    font-size: 16px !important;
+  }
+  .discount{
+    font-size: 13px;
+    top:15px;
+  }
+}
+
+.sumPriceText{
+  
+  font-size: 30px;
+}
+.TextRight{
+  text-align: right !important;
+}

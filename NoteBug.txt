@@ -1,0 +1,5 @@
+Note ฺBug 19/9/2023 : Dev:Banyaphon
+1) Hover Footer Menu ชี้ตัวหนังสือแล้ว Icon ไม่ Hover ตาม
+2) ยังไม่ทำหน้า Responsive Ipad
+3)การสไลด์สกรอยังไม่ smooth
+4)หน้า Order desc ปุ่ม radio button ยังติกแล้วเอาออกไม่ได้ อาจจะเปลี่ยนมาใช้ checkbox

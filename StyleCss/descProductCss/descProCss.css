@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* _____________________Head color black */
+.nav-header {
+  background-color: #000;
+  padding: 1rem 0 1rem 2rem;
+  width: 100%;
+  position: fixed;
+  height: 140px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+}
+
+.nav-header a {
+  text-decoration: none;
+}
+
+.con-btn-back i {
+  font-size: 40px;
+}
+
+.con-btn-back span {
+  margin-left: 1rem;
+  font-size: 50px;
+  color: #857379;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.con-btn-back span:hover {
+  color: #5a4f53;
+}
+
+.con-btn-back span:hover + .fa-arrow-left {
+  color: #5a4f53 !important;
+}
+
+.review-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16%;
+}
+
+.review-con a {
+  text-decoration: none;
+}
+
+.review {
+  padding: 0.8rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  z-index: 3;
+  font-size: 30px;
+  color: #000;
+}
+
+.review:hover {
+  outline: 2px solid #857379;
+}
+
+.favorite {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.favorite i {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.favorite i:hover {
+  color: palevioletred !important;
+}
+
+/* _____________________section order detail */
+.con-order-detail {
+  padding: 2rem;
+  border-bottom: 1px solid gray;
+  border-radius: 5%;
+  box-shadow: 0 0 10px #333;
+}
+
+.order-img {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-img img {
+  width: 500px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.order-desc {
+  text-align: center;
+  padding: 0 2rem;
+  padding-bottom: 2rem;
+}
+
+.order-desc p {
+  font-size: 14px;
+}
+
+/* __________________________Section radio */
+.con-order-radio {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 12rem;
+}
+
+.con-radio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  padding-top: 3rem;
+}
+
+.con-sweet {
+  margin-left: 2rem;
+  padding: 0 4rem 1rem 0;
+}
+
+.con-sweet p {
+  font-size: 13px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.7rem;
+}
+
+.text-sweet {
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+label span {
+  margin-left: 1.5rem;
+}
+.con-shot {
+  margin-left: 2rem;
+  padding: 0 4rem 1rem 0;
+}
+
+.con-shot p {
+  font-size: 13px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.7rem;
+}
+
+.text-shot {
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.con-topping {
+  margin-left: 2rem;
+  padding: 0 4rem 1rem 0;
+}
+
+.con-topping p {
+  font-size: 13px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.7rem;
+}
+
+.text-topp {
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.radio-group {
+  padding: 0.5rem 0 0.7rem 2rem;
+  margin: 1.5rem 0 0.5rem 1rem;
+}
+
+#checksweet1,
+#checksweet2,
+#checksweet3 {
+  width: 30px;
+  height: 30px;
+}
+
+#checkshot1,
+#checkshot2 {
+  width: 30px;
+  height: 30px;
+}
+
+#checktopp1,
+#checktopp2 {
+  width: 30px;
+  height: 30px;
+}
+
+.con-note {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  padding: 0 2rem 3rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.con-note i {
+  font-size: 60px;
+}
+
+.con-note input {
+  margin-left: 2rem;
+  width: 600px;
+  height: 60px;
+  font-size: 30px;
+  border: #333 1px solid;
+  border-radius: 5px;
+}
+
+/* __________________________Section footer */
+.con-footer-order {
+  position: fixed;
+  border-top: solid 1px lightgray;
+  box-shadow: 0 0 2px #333;
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.footer-order {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  padding: 0 4rem;
+}
+
+.con-price {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.con-amount {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* .con-add {
+} */
+
+.con-add button {
+  padding: 1rem 3rem;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #857379;
+  color: #fff;
+  cursor: pointer;
+}
+
+.con-add button:hover {
+  background-color: #5a4f53;
+}
+
+/* ______________________________Responsive ______________________________*/
+@media only screen and (max-width: 500px) {
+}

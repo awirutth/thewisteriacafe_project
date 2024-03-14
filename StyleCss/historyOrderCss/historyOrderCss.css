@@ -1,0 +1,101 @@
+.container-history{
+    margin-top: 180px;
+}
+
+.title-menuList{
+    width: 100%;
+}
+
+.con-title-menulist-left{
+    width: 100%;
+}
+
+/* ทำสไลด์ Animation hover footer bar */
+.animation-footer-bar {
+    /* ใช้วิธีกำหนด active เองในแต่ละหน้า */
+    position: absolute;
+    height: 8px;
+    top: 0;
+    left: 25% !important;
+    /* ขยับตำแหน่งตามหน้า active */
+    background: #857379;
+    width: 25%;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+  }
+
+.btn-detail{
+    background-color: #857379 !important;
+}
+
+
+
+/* Modal View Slip Detail CSS */
+.box_slip_title{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_slip_dataUser{
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.box_slip_dataUser_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_slip_order{
+    margin-top: 40px;
+}
+
+.box_slip_order_title{
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_slip_oderData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_slip_oderData span{
+    width: 90px;
+    /* border: 1px solid yellow; */
+    text-align: start;
+}
+
+.box_slip_count,.box_slip_price{
+    text-align: end !important;
+}
+
+.box_slip_footer{
+    margin-top: 80px;
+    border-top: 1px solid lightgray;
+    height: 20px;
+}
+
+.box_slip_footerData{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_slip_footerData_Text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.box_slip_status{
+    margin-top: 5px;
+    text-align: end;
+}
